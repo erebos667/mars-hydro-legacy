@@ -1,0 +1,12 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Mars Hydro Legacy",
+        "description": "Enter your Mars Hydro Legacy app credentials.",
+        "data": {"email": "Email", "password": "Password"}
+      }
+    },
+    "error": {"cannot_connect": "Unable to connect or login.", "invalid_email": "Invalid email address."}
+  }
+}
