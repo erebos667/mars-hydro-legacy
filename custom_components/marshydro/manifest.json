@@ -1,0 +1,10 @@
+{
+  "domain": "marshydro",
+  "name": "Mars Hydro Legacy Cloud",
+  "codeowners": [],
+  "config_flow": true,
+  "documentation": "https://github.com/erebos667/mars-hydro-legacy",
+  "iot_class": "cloud_polling",
+  "requirements": [],
+  "version": "1.1.0"
+}
