@@ -8,7 +8,7 @@ from .api import MarsHydroAPI
 from .const import DOMAIN
 
 _LOGGER = logging.getLogger(__name__)
-PLATFORMS = ["light", "fan", "sensor", "switch"]
+PLATFORMS = ["light", "fan", "sensor", "switch", "number"]
 
 async def async_setup(hass: HomeAssistant, config: dict) -> bool:
     hass.data.setdefault(DOMAIN, {})
